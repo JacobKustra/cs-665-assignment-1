@@ -9,6 +9,7 @@
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
 
+
 # GitHub Repository Link:
 https://github.com/JacobKustra/cs-665-assignment-1
 
@@ -46,7 +47,6 @@ Type on the command line:
 ```bash
 mvn clean compile
 ```
-
 
 
 ## JUnit Tests
