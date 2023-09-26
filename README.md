@@ -7,24 +7,49 @@
 | Assignment # | 1                          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+For assignment 1, my task was to create a Fully Automatic Beverage Vending Machine that
+can dispense both various coffees like; Americano, Espresso, and Latte Macchiato, along 
+with various teas like; Black Tea, Green Tea, and Yellow Tea. Additionally the user can 
+choose to add milk or sugar as condiments to their beverage with a limit of three of each
+of those.
 
 
 # GitHub Repository Link:
 https://github.com/JacobKustra/cs-665-assignment-1
 
 # Implementation Description 
-
+For this automatic beverage vending machine, I have implemented an interface which then runs 
+through each part of the program from selecting which beverage type, from Coffee or Tea, to 
+then the program providing options of the subcategories of beverages. Then if the beverage 
+does not already have a set size to it, it will give the choice of three sizes, 8oz, 12oz or 
+16oz. From there it will ask if the user wants any condiments and if so allow up to three of 
+each from either sugar or milk. Finally, it will present the beverage that is being brewed, 
+along with how long it will take to brew with its various customizations. Finally, it will 
+then turn off to be energy efficient until another user wants to power it on again to use.
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
+- Explain the level of flexibility in your implementation, including how new object types can 
 be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
+    My program is very flexible when adding new object types or subcategories. Everything is 
+    kept separate so once the change is made in the appropriate class, everything should 
+    function as expected.
+
+- Discuss the simplicity and understandability of your implementation, ensuring that it is 
 easy for others to read and maintain.
+    My program is laid out well and everything is named in such a way that the classes are 
+    easily understandable of what is held in each one. Along with this, once someone goes 
+    into the class, they will find that if there are any counterpart classes, they will all 
+    be laid out in a similar way.
+
 - Describe how you have avoided duplicated code and why it is important.
+    I was able to avoid a lot of code duplication through the use of inheritance from parent 
+    classes. For example, all the beverages have the same possible methods/modifiers so those 
+    are held in the parent class beverage rather than in each individual drink types class.
+
 - If applicable, mention any design patterns you have used and explain why they were
 chosen.
+    I did not implement any design patterns within this implementation of my program.
 
 
 # Maven Commands
